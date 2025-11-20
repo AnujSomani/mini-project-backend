@@ -71,7 +71,8 @@ app = Flask(__name__)
 CORS(app, resources={
     r"/*": {
         "origins": [
-            "https://*.vercel.app",  # Allow all Vercel deployments
+            "https://*.vercel.app",
+             "https://mini-project-frontend-liard.vercel.app" ,# Allow all Vercel deployments
             "http://localhost:5173",  # Local development
             "http://localhost:3000"
         ]
